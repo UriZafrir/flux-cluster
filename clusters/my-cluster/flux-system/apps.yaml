@@ -21,9 +21,9 @@ spec:
             spec:
               containers:
                 - name: nginx
-                  env:
-                    - name: MY_NEW_ENV_VAR
-                      value: "my-new-value"
+                  image: bitnami/kubectl
       target:
         kind: DaemonSet
         name: nginx        
+  components:
+  - ../../clusters/my-cluster/flux-system/component/

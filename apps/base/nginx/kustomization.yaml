@@ -9,3 +9,8 @@ labels:
 - includeSelectors: true
   pairs:
     app: nginx
+
+configMapGenerator:
+  - name: nginx-vars
+    files:
+      - application.properties

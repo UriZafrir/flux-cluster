@@ -4,3 +4,9 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 - apps.yaml
+
+patches:
+- path: daemonset-patch.yaml
+  target:
+    kind: DaemonSet
+    name: nginx

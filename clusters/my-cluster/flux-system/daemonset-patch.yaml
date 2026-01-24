@@ -9,4 +9,4 @@ spec:
       - name: nginx
         env:
         - name: MY_NEW_ENV_VAR
-          value: "my-new-value
+          value: "my-new-value"

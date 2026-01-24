@@ -21,7 +21,9 @@ spec:
             spec:
               containers:
                 - name: nginx
-                  image: bitnami/kubectl
+                  env:
+                    - name: MY_NEW_ENV_VAR
+                      value: "my-new-value"
       target:
         kind: DaemonSet
         name: nginx        

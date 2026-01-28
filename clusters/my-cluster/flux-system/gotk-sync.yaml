@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/UriZafrir/flux-cluster.git
+  url: https://github.com/urizafrir/flux-cluster.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization

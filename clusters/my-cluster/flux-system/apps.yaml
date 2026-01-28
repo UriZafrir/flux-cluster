@@ -24,5 +24,5 @@ spec:
         kind: DaemonSet
         name: nginx
         namespace: nginx
-  # components:
-  # - ../../clusters/my-cluster/flux-system/component/
+  components:
+  - ../../clusters/my-cluster/flux-system/component/
